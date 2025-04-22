@@ -34,6 +34,10 @@ for j in range(number_of_classes):
         cv2.imwrite(os.path.join(DATA_DIR, str(j), '{}.jpg'.format(counter)), frame)
 
         counter += 1
+        """ 
+        I need to start the process of coolecting and ading the images i NEED TO THE FILES  startthe prefile stest
+        ing phase usin open cv in lin with my webcam
+        """
 
 cap.release()
 cv2.destroyAllWindows()
